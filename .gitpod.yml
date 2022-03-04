@@ -1,10 +1,10 @@
 tasks:
   - init: |
-      source _venv/bin/activate
       npm install
     command: |
       npx tailwindcss -i ./static/src/tailwind.css -o ./static/css/main.css --watch
   - init: |
+      python -m venv _venv
       source _venv/bin/activate
       python -m pip install --upgrade pip
       python -m pip install -r requirements.txt
