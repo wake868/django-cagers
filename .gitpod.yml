@@ -19,3 +19,4 @@ vscode:
     - ms-python.python
     - batisteo.vscode-django
     - ms-toolsai.jupyter
+    - bradlc.vscode-tailwindcss

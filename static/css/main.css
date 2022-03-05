@@ -471,3 +471,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .static {
   position: static;
 }
+
+.block {
+  display: block;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
